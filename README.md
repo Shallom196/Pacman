@@ -7,7 +7,7 @@ In accordance with EA Virtual Internship task, We are building a new game called
 - Each ghost that has not yet been hit multiplies itself every 30 seconds (the infection grows).
 - The goal of the game is to collect all the dots before the number of ghosts grows to 32 times the original number.
 I'll be making major changes to the Pacman.py file to reflect Vax-man task.
-## Identified Tasks                                                                             Progress
+## Identified Tasks                                                                             ##Progress
 1. Vax-man killing (vaccinate) Ghost instead
 2. Ghost *multiply* after time < 30sec 
 3. Game ends as *Victory* when all dots are collected
