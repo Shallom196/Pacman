@@ -2,12 +2,17 @@
 
 In accordance with EA Virtual Internship task, We are building a new game called Vax-Man. The rules are similar to Pac-Man with several notable exceptions:
 
-Vax-Man can kill a ghost if he comes into contact with it (vaccinates it).
-Contact with a ghost does not kill Vax-Man.
-Each ghost that has not yet been hit multiplies itself every 30 seconds (the infection grows).
-The goal of the game is to collect all the dots before the number of ghosts grows to 32 times the original number.
+- Vax-Man can kill a ghost if he comes into contact with it (vaccinates it).
+- Contact with a ghost does not kill Vax-Man.
+- Each ghost that has not yet been hit multiplies itself every 30 seconds (the infection grows).
+- The goal of the game is to collect all the dots before the number of ghosts grows to 32 times the original number.
+I'll be making major changes to the Pacman.py file to reflect Vax-man task.
+## Identified Tasks                                                                             Progress
+1. Vax-man killing (vaccinate) Ghost instead
+2. Ghost *multiply* after time < 30sec 
+3. Game ends as *Victory* when all dots are collected
+4. Game ends as *Defeat* when Ghost growth is 32X original no of Ghost
 
-I'll be making major changes to the Pacman.py file to reflect Vax-man.
 
 ### Pacman in Python with PyGame
 
